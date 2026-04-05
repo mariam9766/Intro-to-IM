@@ -39,7 +39,7 @@ void loop() {
 
   analogWrite(blueLed, brightness);  // set brightness of blue LED
   Serial.println(sensorValue);       // track sensor values for debugging
-  delay(60);                         // wait 60 milliseconds for dimming effect
+  delay(50);                         // wait 60 milliseconds for dimming effect
 
   // Digital:
   buttonState = digitalRead(buttonPin);  // read current state of pushbutton
