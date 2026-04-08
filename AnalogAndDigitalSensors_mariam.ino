@@ -5,7 +5,7 @@ int blueLed = 11;    // blue LED attached to PWM pin 11
 int brightness = 0;  // declare and initialize brightness for smooth fading
 
 // Digital:
-const int yellowLed = 12;  // yellow LED attached to PWM pin 12
+const int yellowLed = 12;  // yellow LED attached to pin 12
 const int buttonPin = 2;   // pushbutton attached to pin 2
 
 int buttonState = 0;         // variable for reading the pushbutton status
