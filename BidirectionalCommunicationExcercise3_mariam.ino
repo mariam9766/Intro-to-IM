@@ -44,7 +44,7 @@ void loop() {
 
 
       //SEND TO P5
-      int sensor = analogRead(A0);
+      int sensor = analogRead(A0); // potentiometer connected to analog pin A0
       delay(5);
       Serial.println(sensor);
     }
